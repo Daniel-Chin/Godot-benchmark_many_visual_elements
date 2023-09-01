@@ -11,32 +11,10 @@ config_version=5
 [application]
 
 config/name="benchmark_many_visual_elements"
-run/main_scene="res://Main.tscn"
-config/features=PackedStringArray("4.1", "C#")
-config/icon="res://icon.png"
-
-[display]
-
-window/size/viewport_width=500
-window/size/viewport_height=500
-window/size/resizable=false
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.1", "C#", "Forward Plus")
+config/icon="res://icon.svg"
 
 [dotnet]
 
 project/assembly_name="benchmark_many_visual_elements"
-
-[gui]
-
-common/drop_mouse_on_gui_input_disabled=true
-
-[mono]
-
-project/assembly_name="benchmark_many_visual_elements"
-
-[physics]
-
-common/enable_pause_aware_picking=true
-
-[rendering]
-
-environment/defaults/default_environment="res://default_env.tres"

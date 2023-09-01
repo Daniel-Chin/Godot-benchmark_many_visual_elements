@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://cd754lj21y5m6"]
+[gd_scene load_steps=4 format=3 uid="uid://gu648vhflcgu"]
 
 [ext_resource type="Script" path="res://Main.cs" id="1"]
 [ext_resource type="Script" path="res://ManyNodes.cs" id="2"]
